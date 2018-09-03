@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+
+    <form class="form js-form">
+        <section>
+            <h2>Screen size</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="size" value="13"> 13"</label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="size" value="15"> 15"</label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="size" value="17"> 17"</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Color</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="color" value="white"> white</label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="color" value="gray"> gray</label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="color" value="black"> black</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Release date</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="release_date" value="2015"> 2015</label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="release_date" value="2016"> 2016</label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="release_date" value="2017"> 2017</label>
+                </li>
+            </ul>
+        </section>
+        <button type="submit">Filter</button>
+        <button type="reset">Clear</button>
+    </form>
+    <div id="root" class="grid">
+    </div>
+
+    <template id="laptop-card">
+        <div class="card">
+            <img class="img" src="{{img}}" alt="" width="200">
+            <div class="content">
+                <h2 class="name">{{name}}</h2>
+                <p class="descr">{{descr}}</p>
+                <footer class="footer">
+                    <p class="price">Price: {{price}}</p>
+                    <p class="size">Size: {{size}}</p>
+                    <p class="releaseDate">ReleaseDate: {{releaseDate}}</p>
+                    <p class="color">Color: {{color}}</p>
+                </footer>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
