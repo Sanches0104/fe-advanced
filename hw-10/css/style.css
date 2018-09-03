@@ -1,0 +1,46 @@
+.container{
+    margin: 0 auto;
+    width: 95%;
+}
+button {
+    PADDING: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+button:focus {
+    outline: none;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input {
+	font-size: 1.2rem;
+	padding: 6px 0 4px 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+.forms-blocks {
+    margin-bottom: 0.5rem;
+}
+.forms-blocks:last-child {
+    margin: 0;
+}
+.result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+tr {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+tr:last-child {
+    margin: 0;
+}
