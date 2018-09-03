@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+background-color:black;
+
+}
+.js-time {
+  color: white;
+}
+
+.stopwatch {
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  color: #212121;
+  border-radius: 2px;
+}
+
+.time {
+  margin-bottom: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+}
+
+.btn {
+  display: inline;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #212121;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.active {
+  background-color: #2196F3;
+}
+.lap-li {
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto;
+    margin-top: 0.2rem;
+    text-align: center;
+    width: 14%;
+}
+.none {
+  display: none;
+}
