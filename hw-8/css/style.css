@@ -1,0 +1,47 @@
+body {
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.box-1 {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-top: 30px;
+  margin: 30px;
+}
+.image-gallery {
+  padding: 4rem;
+}
+.preview {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 2px solid #a4a6a8;
+  padding: 0;
+}
+.fullview {
+  border: 2px solid #a4a6a8;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.preview li {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+.active-boxshadow {
+  border: 3px solid black;
+}
+
+.in-active-boxshadow {
+  border : none;
+}
+.preview-image {
+  cursor: pointer;
+}
