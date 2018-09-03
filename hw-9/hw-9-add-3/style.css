@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+    color: #212121;
+    border-radius: 2px;
+  }
+  
+  .clockface {
+    margin-bottom: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 80px;
+  }
+  
+  .timer-btn {
+    display: inline;
+    text-transform: uppercase;
+    border: 0;
+    background-color: #212121;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 28px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .active {
+    background-color: #2196F3;
+  }
