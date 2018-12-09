@@ -2,7 +2,7 @@
   <!-- replace with accurate logo e.g from https://worldvectorlogo.com/ -->
   <img width="200" height="200" src="https://cdn.worldvectorlogo.com/logos/javascript.svg">
   <a href="https://webpack.js.org/">
-    <img width="200" height="200" vspace="" hspace="25" src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon-square-big.svg">
+    <img width="200" height="200" vspace="" hspace="25" src="https://cdn.jsdelivr.net/gh/webpack/media@e7485eb2/logo/icon-square-big.svg">
   </a>
   <h1>mini-css-extract-plugin</h1>
 </div>
