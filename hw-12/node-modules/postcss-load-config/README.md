@@ -369,7 +369,7 @@ task('default', series(css, 'watch'))
 ```
 
 <div align="center">
-  <img width="80" height="80" src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg">
+  <img width="80" height="80" src="https://cdn.jsdelivr.net/gh/webpack/media@e7485eb2/logo/icon.svg">
 </div>
 
 ```json
